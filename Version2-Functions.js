@@ -33,7 +33,7 @@ function changeToDo(position, newValue) {
 changeToDo(4,"new thing");//changed item 97 to new thing
 
 function deleteToDo(position) {
-    todos.splice(position, 1);// use splice command to remove item at position
+    todos.splice(position, 1);// use splice command to remove item at position in called function
     displayTodos();
 }
 deleteToDo(2);
